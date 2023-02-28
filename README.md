@@ -7,7 +7,7 @@ The ForecastProvider application is written in Java 17 using the Spring Boot fra
 
 The server issues an endpoint (/forecast) accepting longitude and latitude, for example
 ```
-/forecast?latitude=52.52&longitude=13.41&pastDays=7"
+/forecast?latitude=52.52&longitude=13.41&pastDays=7
 ```
 The returned information includes the average amount of precipitation on a given day and the time of sunrise/sunset. 
 The application should record the time and endpoint call parameters in a relational database (Postgres or H2) each time.
